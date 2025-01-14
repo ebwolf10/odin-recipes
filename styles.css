@@ -1,9 +1,63 @@
 * { 
     background-color: beige;
     /* text-align: center; */
-    font-family: "Helvetica", "Calibri" 
+    font-family: "Helvetica", "Calibri";
+    /* margin: auto; */
 }
 
 img {
-    width:500px; height:auto;
+    width:250px; height:auto;
+    margin-left: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(182, 53, 36);
+    padding: 10px;
+    background-color: rgb(255, 149, 110);
+    border-bottom: 2px solid brown;;
+    width: 250px;
+    margin: 5px auto;
+}
+
+button {
+    background-color: rgb(248, 213, 180);
+    border: 2px solid orange;
+    width: 250px;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+
+}
+
+div {
+    background-color: rgb(255, 149, 110);
+    border: 2px solid rgb(224, 152, 70);
+    padding: 5px;
+    width: 350px;
+    margin: auto;
+}
+
+div.comment,
+div.home{
+    border: none;
+    padding: 0px;
+    text-align: center;
+}
+
+div.instructions {
+    background-color: rgb(248, 213, 180);
+}
+
+a {
+    background-color: rgb(255, 149, 110);
+}
+
+a.homepage {
+    background-color: rgb(248, 213, 180);
+}
+
+h3, ol, ul, li, em {
+    background-color: rgb(248, 213, 180);
 }
